@@ -22,7 +22,6 @@ A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detecto
 - Note that <YOUR_CLASS>_CLASSES must contain (n+1) classes, if in config.py you list len(num_classes) ==  n.
 - Training on custom dataset,you may need to modify \*.py files under ./data/ yourself
 
-Then in multibox_loss.py you may gather along the 1st axis, like the default SSD code has it.
 ## Installation
 - Install [PyTorch](http://pytorch.org/) by selecting your environment on the website and running the appropriate command.
 - Clone this repository.
